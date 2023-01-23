@@ -312,7 +312,7 @@ section.service-w3ls h3.text-center {
 section.service-w3ls h3.text-center:after {
     content: '';
     position: absolute;
-    background-color: #28b3b6;
+    background-color: #054f22;
     width: 5%;
     height: 4px;
     bottom: 25%;
@@ -326,7 +326,7 @@ section.service-w3ls p.text-center {
 section.service-w3ls h4 {
     font-size: 22px;
     font-weight: normal;
-    color: #28B3B6;
+    color: #054f22;
     padding: 0 0 20px;
     text-transform: capitalize;
 }
@@ -351,14 +351,14 @@ section.service-w3ls .carousel-indicators li {
     text-indent: -999px;
     cursor: pointer;
     background-color: rgba(0,0,0,0);
-    border: 1px solid #28b3b6;
+    border: 1px solid #054f22;
     border-radius: 10px;
 }
 section.service-w3ls .carousel-indicators .active {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color:#28b3b6;
+    background-color:#054f22;
 }
 section.service-w3ls .carousel-indicators {
     bottom: -50px;
@@ -420,7 +420,7 @@ section.divider p.banner-p1 {
     font-weight: 400;
 }
 button.btn.btn-lg.btn-success {
-    background-color:#28b3b6;
+    background-color:#054f22;
 	color:#fff;
 }
 /*-- /divider section --*/
@@ -439,7 +439,7 @@ section.work h3.text-center {
 section.work h3.text-center:after {
     content: '';
     position: absolute;
-    background-color: #28b3b6;
+    background-color: #054f22;
     width: 3%;
     height: 4px;
     bottom: 25%;
@@ -556,7 +556,7 @@ section.work .gallery-grids{
 	margin:0;
 }
 section.work .nav-tabs > li.active > a,section.work .nav-tabs > li.active > a:hover,section.work .nav-tabs > li.active > a:focus {
-    color:#28b3b6;
+    color:#054f22;
     cursor:pointer;
     border: none;
     border-bottom-color: transparent;
@@ -583,7 +583,7 @@ section.work .nav-tabs > li > a:hover {
     border: none;
 }
 section.work .nav > li > a:hover,section.work .nav > li > a:focus {
-    color:#28b3b6;
+    color:#054f22;
 	background-color:transparent;
 }
 section.work .cl-effect-4 li a::after {
@@ -592,7 +592,7 @@ section.work .cl-effect-4 li a::after {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background:#28b3b6;
+	background:#054f22;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -615,7 +615,7 @@ section.work .nav-tabs > li:nth-child(1),section.work .nav-tabs > li:nth-child(2
 }
 section.work .nav-tabs > li:nth-child(1):after,section.work .nav-tabs > li:nth-child(2):after,section.work .nav-tabs > li:nth-child(3):after,section.work .nav-tabs > li:nth-child(4):after {
 	content: '';
-    background-color: #28b3b6;
+    background-color: #054f22;
     width: 2px;
     height: 20px;
     right: 5px;
@@ -643,7 +643,7 @@ section.test h3.text-center {
 section.test h3.text-center:after {
     content: '';
     position: absolute;
-    background-color: #28b3b6;
+    background-color: #054f22;
     width: 5%;
     height: 4px;
     left: 47.5%;
@@ -718,10 +718,10 @@ section.test .test-agile p.test-p2 {
 	font-style:italic;
 }
 section.test .carousel-indicators li {
-    border: 1px solid #28B3B6;
+    border: 1px solid #054f22;
 }
 section.test .carousel-indicators .active {
-    background-color: #28B3B6;
+    background-color: #054f22;
 }
 section.test .carousel-indicators {
     bottom: -45px;
@@ -730,7 +730,7 @@ section.test .carousel-indicators {
 /*-- subscribe section --*/
 section.subs {
     padding: 100px 0;
-	background:#28b3b6 url(../images/subscribe.jpg);
+	background:#054f22 url(../images/subscribe.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -835,7 +835,7 @@ section.contact-w3ls h3 {
 section.contact-w3ls h3:after {
     content: '';
     position: absolute;
-    background-color: #28b3b6;
+    background-color: #054f22;
     width: 5%;
     height: 4px;
     left: 47.5%;
@@ -869,8 +869,8 @@ section.contact-w3ls ul.social-icons1 li a i.fa {
     -ms-transition: all 0.5s ease-in-out;
 }
 section.contact-w3ls ul.social-icons1 li a i.fa:hover {
-	background-color:#28b3b6;
-	border: 1px solid #28b3b6;
+	background-color:#054f22;
+	border: 1px solid #054f22;
 	color:#fff;
 }
 section.contact-w3ls ul.social-icons1 li a:hover {
@@ -894,7 +894,7 @@ section.contact-w3ls ul.social-icons1 li a:hover {
 	text-decoration:none;
 }
 .footer p a:hover {
-    color: #28B3B6;
+    color: #054f22;
 }
 /*-- /footer section --*/
 /*-- back to top --*/
@@ -1225,7 +1225,7 @@ section.service-w3ls p.text-center, section.work p.text-center, section.test p.t
 	padding-bottom:30px;
 }
 .navbar-inverse .navbar-brand {
-    color: #28b3b6;
+    color: #054f22;
     padding: 23px 15px;
 }
 .navbar-brand h1 {
@@ -1311,7 +1311,7 @@ section.divider p.banner-p1 {
 
 @media (max-width:767px) {
 	.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #28b3b6;
+    background-color: #054f22;
 }
 	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #fff;
