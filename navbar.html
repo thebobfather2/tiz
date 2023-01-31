@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+  <link rel="stylesheet" href="/nav-style.css" />
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="nav-header" data-header>
+    <div class="nav-container">
+
+      <a href="#" class="nav-logo">
+        NAVEEN GANDLA
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            NAVEEN GANDLA
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>INTERIORS</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>FOOD</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>ABOUT ME</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>CONTACT</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="social-icons ">
+        <a class="icon-insta" href="https://www.instagram.com/naveengandla/" target="_blank"></a>
+        <a class="icon-behance" href="https://www.behance.net/naveengandla" target="_blank"><img class="icon"
+            src="/services/Images/Social Icons/icons8-behance-32.png" alt=""></a>
+        <a class="icon-vimeo" href="https://vimeo.com/user72537485" target="_blank"></a>
+        <a class="icon-whatsapp"
+          href="https://wa.me/918897597503/?text=Hey, I need some photos for my business. When are you available?"
+          target="_blank"></a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+  <script src="/services/navBar.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
